@@ -1,4 +1,7 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Header from '../components/Header'
+import PageHolder from './subScreens/PageHolder'
+import Spacer from '../components/Spacer'
 
 const SinglePageApplication =()=>{
     let appStyle ={
@@ -9,12 +12,13 @@ const SinglePageApplication =()=>{
     }
     
     return(
-        <BrowserRouter>
-            
         
-        <div style={appStyle}>
-
-        </div>
+        <BrowserRouter>
+            <div style={appStyle}>
+                <Header/>
+                <Spacer height={20}/>
+                <PageHolder/>
+            </div>
         </BrowserRouter>
     )
 }
