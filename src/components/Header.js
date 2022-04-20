@@ -36,11 +36,11 @@ const Header = ()=>{
             <h1 style={h1Style}>My Social</h1>
             <div style={divStyle}>
                 <div style={{margin:'auto'}}>
-                    <MenuItems image={images.home}/>
-                    <MenuItems image={images.video}/>
-                    <MenuItems image={images.group}/>
-                    <MenuItems image={images.faq}/>
-                    <MenuItems image={images.games}/>
+                    <MenuItems link='/' image={images.home}/>
+                    <MenuItems link='/videos' image={images.video}/>
+                    <MenuItems link='/groupchat' image={images.group}/>
+                    <MenuItems link='/faq' image={images.faq}/>
+                    <MenuItems link='/games' image={images.games}/>
                 </div>
                 <HeaderSearch/>
             </div>

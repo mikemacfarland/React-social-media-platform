@@ -1,7 +1,7 @@
 const GroupChatScreen = ()=>{
     return(
         <div>
-
+            GROUPCHAT
         </div>
     )
 }

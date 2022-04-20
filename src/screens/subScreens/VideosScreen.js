@@ -1,7 +1,7 @@
 const VideosScreen = ()=>{
     return(
         <div>
-
+            VIDEOS
         </div>
     )
 }

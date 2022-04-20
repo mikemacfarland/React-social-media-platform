@@ -1,7 +1,7 @@
 const GameScreen = ()=>{
     return(
         <div>
-
+            GAMES
         </div>
     )
 }

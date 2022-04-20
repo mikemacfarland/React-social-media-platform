@@ -1,7 +1,7 @@
 const FaqScreen = ()=>{
     return(
         <div>
-
+            FAQ
         </div>
     )
 }

@@ -29,14 +29,17 @@ const PageHolder = ()=>{
                 <MessangerHolder/>
             </div>
             {/* ROUTING PAGE */}
+            <Spacer width='40px'/>
             <div style={{flex:1}}>
                 <Routes>
                     <Route path='/' element={<PostsScreen/>}/>
-                    <Route path='/faq' element={<FaqScreen/>}/>
-                    <Route path='/game' element={<GameScreen/>}/>
+                    <Route path='/games' element={<GameScreen/>}/>
                     <Route path='/videos' element={<VideosScreen/>}/>
+                    <Route path='/groupchat' element={<GroupChatScreen/>}/>
+                    <Route path='/faq' element={<FaqScreen/>}/>
                 </Routes>
             </div>
+            <Spacer width='40px'/>
             {/* EVENTS */}
             <div style={{width: '20%',marginRight:'40px'}}>
                 <EventsHolder/>

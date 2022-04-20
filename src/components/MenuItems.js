@@ -1,4 +1,6 @@
-const MenuItem = ({image})=>{
+import {Link} from 'react-router-dom'
+
+const MenuItem = ({link ='/',image})=>{
     
     let imgStyle={
         margin: '0px 30px',
@@ -9,7 +11,9 @@ const MenuItem = ({image})=>{
     }
 
     return(
+        <Link to={link}>
         <img style={imgStyle} src={image} alt="menuImg" />
+        </Link>
     )
 }
 

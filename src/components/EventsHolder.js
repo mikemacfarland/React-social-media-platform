@@ -26,13 +26,12 @@ const EventsHolder = ()=>{
             justifyContent:'space-between',
             margin: '20px auto 0 auto'
             }}>
-            <StyledText>Recent Events</StyledText>
-            <StyledText style={{color: 'rgb(24, 120, 240)'}}>All</StyledText>
-        </StyledRow>
-        <StyledColumn>
-            <Events/>
-        </StyledColumn>
-            
+                <StyledText>Recent Events</StyledText>
+                <StyledText style={{color: 'rgb(24, 120, 240)'}}>All</StyledText>
+            </StyledRow>
+            <StyledColumn>
+                <Events/>
+            </StyledColumn>
         </div>
     )
 }

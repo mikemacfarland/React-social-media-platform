@@ -2,7 +2,6 @@ import StyledText from "./styled/StyledText"
 import StyledColumn from "./styled/StyledColumn"
 import Events from './Events'
 
-
 const FeaturedEvent = ()=>{
     return(
     <StyledColumn>
@@ -32,7 +31,6 @@ const FeaturedEvent = ()=>{
                 }}>Cool opportunity for community involvment</StyledText>
         </StyledColumn>
     </StyledColumn>
-
     )
 }
 
