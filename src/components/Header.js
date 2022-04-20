@@ -14,7 +14,6 @@ const Header = ()=>{
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'space-between'
     }
 
     let h1Style={
@@ -26,19 +25,22 @@ const Header = ()=>{
     
     let divStyle={
         display: 'flex',
+        width: '100%',
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'flex-end'
     }
 
     return(
         <header style={headerStyle}>
             <h1 style={h1Style}>My Social</h1>
             <div style={divStyle}>
-                <div>
+                <div style={{margin:'auto'}}>
                     <MenuItems image={images.home}/>
                     <MenuItems image={images.video}/>
                     <MenuItems image={images.group}/>
-                    {/* add 2 more menu items, use wire emblems instead of solid */}
+                    <MenuItems image={images.faq}/>
+                    <MenuItems image={images.games}/>
                 </div>
                 <HeaderSearch/>
             </div>
